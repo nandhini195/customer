@@ -1,0 +1,58 @@
+@charset "UTF-8"; /* 1st line of the css  */
+ 
+/* body is the whole web page  font - arial,color -light gray */
+body{
+	
+	font-family: Arial;         
+	background-color: #f5f5f5; /* (light gray)*/
+ }
+ 
+/* html class container - div class = container */
+
+.container{
+	
+	width: 1000px;
+               /* (-form width 800px)  1000px up to */
+	margin: 30px auto; 
+	                          /* top & bottom -30px automtically right & left*/
+	background-color: white;  /* colour white - #ffffff */
+	
+	padding: 30px;            /* space inside the container  */
+}
+/* .gopal{
+	background-color: #c73030  !important;
+} */
+
+h1{
+	text-align: center;      /* (left to center) */
+	color: #172d85;          /* (dark blue) */
+}
+
+
+h2{
+	color: #172d85;
+	margin-top: 25px;
+}
+
+input,select,textarea {
+	width:100%;             /* available container width */
+	padding:10px;           /* internal space */
+	margin-top:5px ;        /*  space above the input */
+	margin-bottom:15px;     /* space below the input */
+	box-sizing: border-box; /* Keep the input within the specified width */
+	                         
+}
+
+textarea{
+	
+	height: 80px;             /* address field height */
+	
+} 
+
+button {
+	padding:10px 20px;        /* 10px = top and bottom
+                                 20px = left and right */
+	 
+	margin-right:10px;
+}
+
