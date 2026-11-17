@@ -93,6 +93,13 @@ Gender
  placeholder = "Enter PIN Code">
  
  
+ 
+ 
+ 
+ \
+ 
+ 
+ 
  <!--  Gender use radio,value 
  radio buttons - same name.
  user select -  only one gender
